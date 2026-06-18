@@ -1,0 +1,149 @@
+.wrap_body.wrap_category {
+    padding-top: 160px;
+}
+.wrap_category .category .tags .list_tag .swiper:not(.swiper-initialized) .swiper-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 10px;
+}
+@media (max-width: 768px) {
+    .wrap_category .category .tags .list_tag .swiper:not(.swiper-initialized) .swiper-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .header-fixed-contacts--mobile {
+        display: none !important;
+    }
+    .wrap_category .category .tags .list_tag .tag {
+        padding: 6px 2px;
+        font-size: 12px;
+    }
+    .wrap_body.wrap_category .breadcrumb {
+        margin: 0;
+    }
+    .wrap_body.wrap_category {
+        padding-top: 90px;
+    }
+    .wrap_category .category h1, .wrap_category .category .h1 {
+        margin-bottom: 3px;
+    }
+    .category .tags .head_tags {
+        padding: 3px 0;
+        display: none;
+    }
+    .wrap_category .category .tags {
+        padding-bottom: 0;
+    }
+    h1, .h1 {
+        font-size: 1rem;
+    }
+    .category h1 {
+        font-size: 12px;
+    }
+    .telegramTopLink svg {
+        width: 20px;
+        height: 20px;
+    }
+    .telegramTopLink {
+        font-size: 12px;
+    }
+    .dropmenu {
+        width: 50px;
+        height: 55px;
+        padding-top: 20px;
+    }
+    header #search {
+        margin-right: 5px;
+    }
+    .header-fixed {
+        min-height: 80px;
+    }
+    .header-fixed .header-fixed-logo+.container {
+        width: calc(100% - 75px);
+    }
+    .phoneCatalogMobile {
+        display: block !important;
+        margin-right: 5px;
+        margin-left: auto;
+    }
+    .phoneCatalogMobile a {
+        color: transparent;
+        width: 24px;
+        height: 24px;
+        overflow: hidden;
+        display: block;
+        background-image: url(/img/phone-ico.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 5px;
+    }
+    .breadcrumb {
+        display: none !important;
+    }
+    .wrap_category .category .tags .head_tags, .wrap_category .category .tags .head_tags .but_tag {
+        font-size: 14px;
+    }
+    .wrap_category .category .tags .list_tag {
+        padding-bottom: 2px;
+    }
+    .list_tag .swiper {
+        padding-bottom: 14px;
+    }
+    .list_tag .swiper-arrow {
+        display: none !important;
+    }
+    .list_tag .swiper-wrapper a:nth-child(n+5) {
+        display: none !important;
+    }
+    .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+        height: 2px;
+    }
+    .swiper-arrow svg {
+        padding: 5px;
+    }
+    .swiper-arrow {
+        bottom: 15px;
+    }
+    .header-fixed .row:first-child {
+        padding: 0;
+    }
+    .header-fixed > .header-fixed-logo .logo-el img {
+        max-width: 55px;
+    }
+    .header-fixed > .header-fixed-logo {
+        min-width: 75px !important;
+        padding: 5px 0 5px 10px;
+        margin-right: 0;
+    }
+    .header-fixed-menu .btn-credit {
+        max-width: 155px;
+    }
+}
+@media (max-width: 380px) {
+    .btn-credit {
+        white-space: nowrap;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5px 5px;
+    }
+    .phoneCatalogMobile a {
+        width: 18px;
+        height: 18px;
+    }
+    header #search .button-search {
+        height: 18px;
+        width: 18px;
+        font-size: 17px;
+        margin-top: 9px;
+        margin-right: 6px;
+    }
+    .dropmenu .line {
+        width: 16px;
+        height: 3px;
+    }
+    .dropmenu {
+        width: 40px;
+        height: 45px;
+        padding-top: 16px;
+    }
+}
